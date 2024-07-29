@@ -1,0 +1,50 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.transaction-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transaction-list th,
+.transaction-list td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.transaction-list th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.transaction-list a {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  text-decoration: none;
+}
+
+.add-transaction form {
+  max-width: 400px;
+  margin: auto;
+}
+
+.add-transaction div {
+  margin-bottom: 15px;
+}
+
+.add-transaction label {
+  display: block;
+}
+
+.add-transaction input,
+.add-transaction select {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
